@@ -10,5 +10,11 @@ const marioJump = () => {
     }, 500);
 }
 
+const loop = setInterval(() =>{
+
+    const pipePosition = 
+
+}, 10)
+
 
 document.addEventListener('keydown', marioJump);
