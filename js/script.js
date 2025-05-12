@@ -34,3 +34,10 @@ const loop = setInterval(() =>{
 
 
 document.addEventListener('keydown', marioJump);
+
+document.addEventListener('keydown', function(event) {
+    if (event.code === 'Space') {
+      event.preventDefault(); // impede a rolagem da página
+      location.reload(); // recarrega a página (F5)
+    }
+  });
